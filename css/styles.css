@@ -20,13 +20,14 @@ body {
   height: 1000px;
   margin: 0 auto;
   background-color: lightgray;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
+  margin-top: 5px;
 }
 .main {
-  flex-direction: column;
-  align-items:flex-start;
+  justify-content:space-around;
+  align-items:stretch;
   display: flex;
-  width: 450px;
+
 }
 .draw {
   justify-content:center;
@@ -43,6 +44,9 @@ body {
   border: 1px solid grey;
   margin: 0;
 }
+.text {
+  margin-left: 0px;
+}
 
 h1 {
   font-family: Monoton;
@@ -50,7 +54,9 @@ h1 {
   text-align: center;
   color: #FF5284;
   margin-top: 0px;
+  margin-left: 0px;
   margin-bottom: 0px;
+  margin-right: 200px;
 }
 h2 {
   font-family: 'Indie Flower', cursive;
@@ -58,10 +64,12 @@ h2 {
   font-weight: 100;
   color: black;
   margin-top: 0px;
+  margin-left: 50px;
 }
 .controls {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 30px;
+  margin-right: 50px;
 }
 #set-color {
   font-family: 'Indie Flower', cursive;
