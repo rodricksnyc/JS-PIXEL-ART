@@ -3,19 +3,36 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #CBF6FF;
+}
 
 #brush {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   background-color: lightgray;
+  border: 1px solid black;
   margin: 15px auto;
 }
 
 #canvas {
-  width: 500px;
-  height: 500px;
+  width: 1000px;
+  height: 1000px;
   margin: 0 auto;
   background-color: lightgray;
+  margin-bottom: 300px;
+}
+.main {
+  flex-direction: column;
+  align-items:flex-start;
+  display: flex;
+  width: 450px;
+}
+.draw {
+  justify-content:center;
+  align-items:center;
+  display: flex;
+  margin-top: 0px;
 }
 
 .square {
@@ -29,10 +46,26 @@
 
 h1 {
   font-family: Monoton;
-  font-size: 48px;
+  font-size: 70px;
   text-align: center;
+  color: #FF5284;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  font-weight: 100;
+  color: black;
+  margin-top: 0px;
+}
 .controls {
   text-align: center;
+  margin-top: 0px;
+}
+#set-color {
+  font-family: 'Indie Flower', cursive;
+}
+#form {
+  margin-top: 0px;
 }

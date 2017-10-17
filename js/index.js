@@ -43,7 +43,7 @@ function addElement () {
 }
 
 function createCanvas () {
-  for (i = 0; i < 2500; i++) {
+  for (i = 0; i < 10000; i++) {
     addElement();
   }
 }
