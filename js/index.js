@@ -3,7 +3,7 @@ let myBrush = document.getElementById("brush");
 let myButton = document.getElementById("set-color");
 let myTextInput = document.getElementById("color-field");
 let myForm = document.getElementById("form");
-let isMouseDown = false;
+// let isMouseDown = false;
 
 
 myButton.addEventListener("click", function(event) {
@@ -50,9 +50,9 @@ function createCanvas () {
 
 createCanvas();
 
-window.addEventListener("mousedown", function(event){
-  isMouseDown = true;
-});
-window.addEventListener("mouseup", function(event){
-  isMouseDown = false;
-});
+// window.addEventListener("mousedown", function(event){
+//   isMouseDown = true;
+// });
+// window.addEventListener("mouseup", function(event){
+//   isMouseDown = false;
+// });
