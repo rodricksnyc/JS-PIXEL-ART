@@ -35,9 +35,9 @@ function addElement () {
       event.target.style.backgroundColor = myTextInput.value;
     });
     element.addEventListener("mouseleave", function(event){
-      if (!isMouseDown) {
-        event.target.style.backgroundColor = "#E7E5DB";
-      }
+      // if (!isMouseDown) {
+      //   event.target.style.backgroundColor = "#E7E5DB";
+      // }
     });
     myCanvas.appendChild(element);
 }
