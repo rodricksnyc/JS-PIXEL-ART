@@ -35,6 +35,10 @@ function addElement () {
       event.target.style.backgroundColor = myTextInput.value;
     });
     element.addEventListener("mouseleave", function(event){
+      if screen.width < 768px {
+        element.addEventListener("touchstart", function(event) {
+        }
+      
       // if (!isMouseDown) {
       //   event.target.style.backgroundColor = "#E7E5DB";
       // }
