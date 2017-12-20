@@ -35,7 +35,7 @@ function addElement () {
       event.target.style.backgroundColor = myTextInput.value;
     });
     element.addEventListener("mouseleave", function(event){
-      if (screen.width < 768px) {
+      if (screen.width < 768) {
         element.addEventListener("touchstart", function(event) {
         }
       
