@@ -43,9 +43,9 @@ function addElement () {
     element.addEventListener("touchmove", function(event) {
       event.target.style.backgroundColor = myTextInput.value;
     });
-    element.addEventListener("touchend", function(event){
-
-    });
+    // element.addEventListener("touchend", function(event){
+    //
+    // });
 
 
     myCanvas.appendChild(element);
