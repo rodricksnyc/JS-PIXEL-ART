@@ -40,7 +40,7 @@ function addElement () {
       //   event.target.style.backgroundColor = "#E7E5DB";
       // }
     });
-    element.addEventListener("touchstart", function(event) {
+    element.addEventListener("touchmove", function(event) {
       event.target.style.backgroundColor = myTextInput.value;
     });
     element.addEventListener("touchend", function(event){
