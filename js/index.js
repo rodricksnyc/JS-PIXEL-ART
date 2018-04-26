@@ -36,9 +36,9 @@ function addElement () {
     });
     element.addEventListener("mouseleave", function(event){
 
-      // if (!isMouseDown) {
-      //   event.target.style.backgroundColor = "#E7E5DB";
-      // }
+      if (!isMouseDown) {
+        event.target.style.backgroundColor = "#E7E5DB";
+      }
     });
     element.addEventListener("touchmove", function(event) {
       event.target.style.backgroundColor = myTextInput.value;
@@ -59,9 +59,9 @@ function createCanvas () {
 
 createCanvas();
 
-// window.addEventListener("mousedown", function(event){
-//   isMouseDown = true;
-// });
-// window.addEventListener("mouseup", function(event){
-//   isMouseDown = false;
-// });
+window.addEventListener("mousedown", function(event){
+  isMouseDown = true;
+});
+window.addEventListener("mouseup", function(event){
+  isMouseDown = false;
+});
