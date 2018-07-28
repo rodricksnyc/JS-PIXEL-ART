@@ -4,30 +4,48 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #FFDCE8;
+background:white;
+
+}
+.jsbody {
+  background-image: url("../img/paint.png");
+  background-size:70%;
+  width:70%;
+  height: 70%;
+  background-repeat: no-repeat;
+
 }
 
 #brush {
-  width: 200px;
-  height: 200px;
-  background-color: lightgray;
+  width: 190px;
+  height: 100px;
+  background-color: #E7E5DB;
   border: 1px solid black;
-  margin: 15px auto;
+
+}
+.page {
+  display:flex;
+  justify-content: space-around;
 }
 
 #canvas {
   width: 1000px;
   height: 1000px;
-  margin: 0 auto;
-  background-color: lightgray;
+
+  background-color: #E7E5DB;
   margin-bottom: 250px;
-  margin-top: 5px;
+
 }
 .main {
+  margin-left:5%;
   justify-content:space-around;
   align-items:stretch;
   display: flex;
 
+}
+
+li {
+  list-style-type: none;
 }
 .draw {
   justify-content:center;
@@ -35,13 +53,17 @@ body {
   display: flex;
   margin-top: 0px;
 }
+.vertical {
+  display:flex;
+  flex-direction: column;
+}
 
 .square {
   float: left;
   width: 10px;
   height: 10px;
   background: #E7E5DB;
-  border: 1px solid grey;
+  border: 1px solid gray;
   margin: 0;
 }
 .text {
@@ -67,13 +89,11 @@ h2 {
   margin-left: 40px;
 }
 .controls {
-  text-align: center;
-  margin-top: 30px;
-  margin-right: 50px;
+margin:10px 0px 0px 100px;
+align-items: flex-start;
+display: flex;
+flex-direction: column;
 }
 #set-color {
-  font-family: 'Indie Flower', cursive;
-}
-#form {
-  margin-top: 0px;
+  font-family: 'Permanent Marker', cursive;
 }
