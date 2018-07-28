@@ -150,5 +150,8 @@ input {
 .controls {
   margin:0px;
 }
+li {
+  text-shadow: 1px 1px black;
+}
 
 }
