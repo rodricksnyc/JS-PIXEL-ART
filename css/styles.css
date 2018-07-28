@@ -28,6 +28,8 @@ background:white;
   justify-content: space-around;
 }
 
+
+
 #canvas {
   width: 1000px;
   height: 1000px;
@@ -96,4 +98,42 @@ flex-direction: column;
 }
 #set-color {
   font-family: 'Permanent Marker', cursive;
+}
+img {
+  width:50%;
+  height:50%;
+  margin-left:-6%;
+  margin-top:-0%;
+}
+.thing {
+  font-family: 'Permanent Marker', cursive;
+  color:black;
+  font-size:45px;
+  margin-top:2%;
+}
+li {
+  font-family: 'Permanent Marker', cursive;
+  color:#B253E0;
+  font-size:34px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 325px) {
+  .page {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  img {
+    width:100%;
+    height: 100%;
+    margin:-120% 0 0 0;
+  }
+  .thing {
+    font-size: 38px;
+    margin-left: 68%;
+  }
+  ul {
+    margin-left: -5%;
+  }
+
+
 }
