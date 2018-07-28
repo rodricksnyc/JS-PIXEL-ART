@@ -128,14 +128,14 @@ li {
     margin:-120% 0 0 0;
   }
   .thing {
-    font-size: 54px;
+    font-size: 46px;
     margin-left: 68%;
   }
   ul {
     margin-left: -5%;
 }
 #set-color {
-  font-size: 30px;
+  font-size: 22px;
 }
 .jsbody {
   background-size:100%;
@@ -144,7 +144,7 @@ li {
   background-repeat: no-repeat;
 
 }
-input {
+#color-field {
   border: 1px solid black;
 }
 .controls {
